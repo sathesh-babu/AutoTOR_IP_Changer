@@ -34,7 +34,11 @@ os.system("clear")
 
 def ma_ip():
     url = 'https://www.myexternalip.com/raw'
-    get_ip = requests.get(url, proxies=dict(http='socks5://127.0.0.1:9050', https='socks5://127.0.0.1:9050'))
+    proxies = {
+        'http': 'socks5://127.0.0.1:9050',
+        'https': 'socks5://127.0.0.1:9050'
+    }
+    get_ip = requests.get(url, proxies=proxies)
     return get_ip.text
 
 def change():
