@@ -53,9 +53,9 @@ print('''\033[1;32;40m \n
   / ____ \ |_| | || (_) |    | | (_) | |
  /_/    \_\__,_|\__\___/     |_|\___/|_|
                 V 2.1
-from mrFD
+By Satheshbabu Sundharajan
 ''')
-print("\033[1;40;31m http://facebook.com/ninja.hackerz.kurdish/\n")
+print("\033[1;40;31m Satheshbabu \n")
 
 os.system("tor &")
 
